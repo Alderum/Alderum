@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Roman Patlai — Programmer and trader</title>
 <meta name="description" content="Roman Patlai: programmer and trader building automation and trading systems.">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Mono:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap">
 <link rel="stylesheet" href="site.css">
-<style>body{margin:0;background:#1B1B1A}</style>
+<style>body{margin:0;background:#2A2220}</style>
 </head>
 <body>
 <div class="page">
@@ -44,8 +44,9 @@
             <a href="#contact" class="btn btn-ghost">Contact me</a>
           </div>
         </div>
-        <div class="photo">
-          <img src="portrait.jpg" alt="Portrait of Roman Patlai">
+        <div class="arch">
+          <div class="arch-frame"><img src="portrait.jpg" alt="Portrait of Roman Patlai"></div>
+          <p class="plate">Roman Patlai</p>
         </div>
       </div>
 
@@ -62,13 +63,19 @@
     </div>
   </section>
 
+  <div class="frieze" aria-hidden="true">
+    <span></span>
+    <svg viewBox="0 0 384 16" width="384" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square" stroke-linejoin="miter"><path d="M0 14H384M20 14V2H4V10H16V6H8M44 14V2H28V10H40V6H32M68 14V2H52V10H64V6H56M92 14V2H76V10H88V6H80M116 14V2H100V10H112V6H104M140 14V2H124V10H136V6H128M164 14V2H148V10H160V6H152M188 14V2H172V10H184V6H176M212 14V2H196V10H208V6H200M236 14V2H220V10H232V6H224M260 14V2H244V10H256V6H248M284 14V2H268V10H280V6H272M308 14V2H292V10H304V6H296M332 14V2H316V10H328V6H320M356 14V2H340V10H352V6H344M380 14V2H364V10H376V6H368"></path></svg>
+    <span></span>
+  </div>
+
   <!-- ============ 01 About ============ -->
   <section id="about" class="sec" aria-labelledby="about-title">
     <div class="rl" aria-hidden="true"></div><div class="rt" aria-hidden="true"></div>
     <div class="wrap">
       <div class="g2">
         <div>
-          <span class="num" aria-hidden="true">01</span>
+          <span class="num" aria-hidden="true">I</span>
           <p class="label" style="margin-bottom: 12px; color: var(--mute)">About</p>
           <h2 id="about-title" class="h3">Who I am</h2>
         </div>
@@ -105,7 +112,7 @@
     <div class="wrap">
       <div class="g2">
         <div>
-          <span class="num" aria-hidden="true">02</span>
+          <span class="num" aria-hidden="true">II</span>
           <p class="label" style="margin-bottom: 12px; color: var(--mute)">Work</p>
           <h2 id="work-title" class="h3">Two tools, built end to end</h2>
         </div>
@@ -114,38 +121,48 @@
             <li>
               <div class="proj">
                 <svg viewBox="0 0 240 240" width="160" height="160" role="img" aria-label="Three nested chevrons narrowing to a single dot, like a funnel" style="display: block">
-                  <g transform="translate(0 -6)" fill="none" stroke="#1B1B1A" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+                  <g transform="translate(0 -6)" fill="none" stroke="#2A211B" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M44 43L120 100L196 43"></path>
                     <path d="M70 100.5L120 138L170 100.5"></path>
                     <path d="M96 150L120 168L144 150"></path>
                   </g>
-                  <circle cx="120" cy="200" r="13" fill="#1B1B1A"></circle>
+                  <circle cx="120" cy="200" r="13" fill="#2A211B"></circle>
                 </svg>
                 <div>
                   <h3 class="h3-lg" style="margin-bottom: 16px">Beyond Sales</h3>
                   <p class="p" style="margin-bottom: 20px">A local business-to-business outreach platform: a mail queue, a company-website scraper, automated sending with safety limits, and tracking of replies and leads — with AI-assisted drafting. Managed from a browser control panel.</p>
                   <ul class="pills" style="margin-bottom: 20px"><li class="pill">Python</li><li class="pill">MySQL</li><li class="pill">AI</li></ul>
-                  <a href="https://beyond-oraganization.github.io/Beyond-Website/techsales.html" class="more">Details
-                    <svg width="28" height="12" viewBox="0 0 28 12" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M0 6H26M21 1L26 6L21 11"></path></svg>
-                  </a>
+                  <div style="display: flex; flex-wrap: wrap; gap: 4px 32px">
+                    <a href="https://github.com/Beyond-Oraganization/Beyond-Sales" class="more" target="_blank" rel="noopener">GitHub
+                      <svg width="28" height="12" viewBox="0 0 28 12" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M0 6H26M21 1L26 6L21 11"></path></svg>
+                    </a>
+                    <a href="https://beyond-oraganization.github.io/Beyond-Website/techsales.html" class="more">Details
+                      <svg width="28" height="12" viewBox="0 0 28 12" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M0 6H26M21 1L26 6L21 11"></path></svg>
+                    </a>
+                  </div>
                 </div>
               </div>
             </li>
             <li>
               <div class="proj">
                 <svg viewBox="0 0 240 240" width="160" height="160" role="img" aria-label="A single candlestick with an eye in its body" style="display: block">
-                  <path d="M120 56V84M120 156V184" fill="none" stroke="#1B1B1A" stroke-width="10" stroke-linecap="round"></path>
-                  <rect x="82" y="84" width="76" height="72" rx="12" fill="#1B1B1A"></rect>
-                  <path d="M93 120Q120 96 147 120Q120 144 93 120Z" fill="none" stroke="#D3D3CD" stroke-width="5" stroke-linejoin="round"></path>
-                  <circle cx="120" cy="120" r="8" fill="#D3D3CD"></circle>
+                  <path d="M120 56V84M120 156V184" fill="none" stroke="#2A211B" stroke-width="10" stroke-linecap="round"></path>
+                  <rect x="82" y="84" width="76" height="72" rx="12" fill="#2A211B"></rect>
+                  <path d="M93 120Q120 96 147 120Q120 144 93 120Z" fill="none" stroke="#DDD2B9" stroke-width="5" stroke-linejoin="round"></path>
+                  <circle cx="120" cy="120" r="8" fill="#DDD2B9"></circle>
                 </svg>
                 <div>
                   <h3 class="h3-lg" style="margin-bottom: 16px">Beyond Bot</h3>
                   <p class="p" style="margin-bottom: 20px">A .NET console application that automates trading on Bybit: pluggable strategies, EMA, RMA, ATR and Adaptive Envelope indicators, order management and MySQL storage. Ships as self-contained Linux builds that run as a systemd service.</p>
                   <ul class="pills" style="margin-bottom: 20px"><li class="pill">.NET</li><li class="pill">Bybit</li><li class="pill">Trading</li></ul>
-                  <a href="https://beyond-oraganization.github.io/Beyond-Website/techbot.html" class="more">Details
-                    <svg width="28" height="12" viewBox="0 0 28 12" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M0 6H26M21 1L26 6L21 11"></path></svg>
-                  </a>
+                  <div style="display: flex; flex-wrap: wrap; gap: 4px 32px">
+                    <a href="https://github.com/Beyond-Oraganization/Beyond-Bot-Bybit" class="more" target="_blank" rel="noopener">GitHub
+                      <svg width="28" height="12" viewBox="0 0 28 12" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M0 6H26M21 1L26 6L21 11"></path></svg>
+                    </a>
+                    <a href="https://beyond-oraganization.github.io/Beyond-Website/techbot.html" class="more">Details
+                      <svg width="28" height="12" viewBox="0 0 28 12" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M0 6H26M21 1L26 6L21 11"></path></svg>
+                    </a>
+                  </div>
                 </div>
               </div>
             </li>
@@ -162,7 +179,7 @@
     <div class="wrap">
       <div class="g2">
         <div>
-          <span class="num" aria-hidden="true">03</span>
+          <span class="num" aria-hidden="true">III</span>
           <p class="label" style="margin-bottom: 12px; color: var(--mute)">Beyondia</p>
           <h2 id="beyondia-title" class="h3">A country of ideas</h2>
         </div>
@@ -187,7 +204,7 @@
     <div class="wrap">
       <div class="g2">
         <div>
-          <span class="num" aria-hidden="true">04</span>
+          <span class="num" aria-hidden="true">IV</span>
           <p class="label" style="margin-bottom: 12px; color: var(--mute)">Path</p>
           <h2 id="path-title" class="h3">Experience and skills</h2>
         </div>
@@ -231,7 +248,7 @@
     <div class="wrap">
       <div class="g2">
         <div>
-          <span class="num" aria-hidden="true">05</span>
+          <span class="num" aria-hidden="true">V</span>
           <p class="label" style="margin-bottom: 12px; color: var(--mute)">Contact</p>
           <h2 id="contact-title" class="h3">Let’s talk</h2>
         </div>
@@ -248,6 +265,12 @@
       </div>
     </div>
   </section>
+
+  <div class="frieze" aria-hidden="true">
+    <span></span>
+    <svg viewBox="0 0 384 16" width="384" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square" stroke-linejoin="miter"><path d="M0 14H384M20 14V2H4V10H16V6H8M44 14V2H28V10H40V6H32M68 14V2H52V10H64V6H56M92 14V2H76V10H88V6H80M116 14V2H100V10H112V6H104M140 14V2H124V10H136V6H128M164 14V2H148V10H160V6H152M188 14V2H172V10H184V6H176M212 14V2H196V10H208V6H200M236 14V2H220V10H232V6H224M260 14V2H244V10H256V6H248M284 14V2H268V10H280V6H272M308 14V2H292V10H304V6H296M332 14V2H316V10H328V6H320M356 14V2H340V10H352V6H344M380 14V2H364V10H376V6H368"></path></svg>
+    <span></span>
+  </div>
 
   <!-- ============ Footer ============ -->
   <footer class="sec dark" style="padding-top: 0; padding-bottom: 40px">
